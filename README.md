@@ -8,7 +8,7 @@
   governance layer inside LAOS, stats refreshed from CV, 5 featured projects.
 -->
 
-<!-- PHOTO SLOT: user will add <img src="..." alt="Laurent" width="..." /> here -->
+<!-- PHOTO SLOT: user will add their photo here -->
 
 <div align="center" style="margin-top:48px;margin-bottom:24px;">
 
