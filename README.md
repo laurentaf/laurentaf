@@ -31,7 +31,7 @@
 
 # 👋 Hi, I'm Laurent
 
-### AI Data Engineer · System Architect
+### AI Engineer · Data Analyst · Data Engineer
 
 <p style="margin:12px 0;font-size:0.9em;color:#636e72;">
   <span style="background:#6c5ce7;color:#fff;padding:2px 10px;border-radius:4px;font-size:0.85em;">Campinas/SP</span>
