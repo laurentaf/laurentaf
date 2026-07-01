@@ -29,7 +29,7 @@
 
 <br/>
 
-# 👋 Hi, I'm Laurent
+# Hi, I'm Laurent
 
 ### AI Engineer · Data Analyst · Data Engineer
 
