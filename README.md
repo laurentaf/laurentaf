@@ -8,8 +8,6 @@
   governance layer inside LAOS, stats refreshed from CV, 5 featured projects.
 -->
 
-<!-- PHOTO SLOT: user will add their photo here -->
-
 <div align="center" style="margin-top:48px;margin-bottom:24px;">
 
 <!-- Emblem: stylized LA / data node -->
@@ -54,8 +52,6 @@
   &nbsp;
   <img src="https://img.shields.io/badge/Power%20BI-BI-F2C811?style=flat&logo=powerbi&logoColor=000" alt="Power BI"/>
   &nbsp;
-  <img src="https://img.shields.io/badge/MCP-Protocol-6c5ce7?style=flat" alt="MCP Protocol"/>
-  &nbsp;
   <a href="https://github.com/laurentaf/laos"><img src="https://img.shields.io/badge/%F0%9F%94%A5%20LAOS-Ecosystem-6c5ce7?style=flat" alt="LAOS Ecosystem"/></a>
 </p>
 
@@ -75,7 +71,7 @@
 
 ## 🏛️ LAOS — The Operating System
 
-I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7 modules** — 5 independent domain MCP capabilities, the **LACOUNCIL governance engine**, and an orchestrator core that ties them together with deterministic routing and mechanical enforcement.
+I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7 modules** — 5 independent domain MCP capabilities, the **LACOUNCIL governance engine** (14+ approved proposals, 3 voting strategies, DuckDB audit trail), and an orchestrator core with deterministic routing and mechanical enforcement.
 
 <div align="center" style="margin:20px 0;">
 
@@ -89,17 +85,9 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 
 </div>
 
-<div align="center" style="margin:12px 0 20px;padding:10px 16px;border:1px dashed #6c5ce7;border-radius:8px;max-width:560px;">
-  <span style="font-size:1.1em;">🏛️</span>
-  <strong style="color:#6c5ce7;">LACOUNCIL</strong> — <em>internal governance engine, not a standalone capability</em><br/>
-  <span style="font-size:0.82em;color:#636e72;">
-    14+ approved proposals · 3 voting strategies (unanimity / supermajority / majority) · DuckDB audit trail · separation of powers (investigation → proposal → voting → implementation → sign-off)
-  </span>
-</div>
-
-<p align="center" style="font-size:0.85em;color:#636e72;margin:8px 0 16px;">
+<div align="center" style="margin:8px 0 16px;">
   <strong>115 commits</strong> in 19 days · <strong>11 agent types</strong> · <strong>13 TypeScript plugins</strong> · 17 knowledge files · 17 scripts · 3 dispatch modes
-</p>
+</div>
 
 **[Explore LAOS →](https://github.com/laurentaf/laos)**
 &nbsp;·&nbsp;
