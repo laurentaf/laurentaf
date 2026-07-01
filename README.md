@@ -55,14 +55,6 @@
   <a href="https://github.com/laurentaf/laos"><img src="https://img.shields.io/badge/%F0%9F%94%A5%20LAOS-Ecosystem-6c5ce7?style=flat" alt="LAOS Ecosystem"/></a>
 </p>
 
-<div align="center" style="margin:16px 0;">
-  <a href="https://github.com/laurentaf">
-    <img src="https://github-readme-stats.vercel.app/api?username=laurentaf&show_icons=true&hide=stars&count_private=true&theme=transparent&hide_border=true&title_color=6c5ce7&text_color=636e72&icon_color=6c5ce7&ring_color=6c5ce7" alt="Laurent's GitHub Stats" style="max-width:400px;" />
-  </a>
-</div>
-
-<hr style="width:48px;margin:20px auto;border:none;border-top:2px solid #6c5ce7;opacity:0.3;"/>
-
 </div>
 
 > *"Data architecture isn't about the tools — it's about whether the C-suite trusts what it sees on the dashboard."*
@@ -160,16 +152,6 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 <a href="https://github.com/laurentaf/laos">
   <img src="https://img.shields.io/badge/LAOS-Explore-6c5ce7?style=for-the-badge" alt="LAOS"/>
 </a>
-
----
-
-## 📝 Latest Activity
-
-<div align="center" style="margin:16px 0;">
-  <a href="https://github.com/laurentaf">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=laurentaf&theme=github-light&hide_border=true&bg_color=transparent&color=636e72&line=6c5ce7&point=6c5ce7&area=true&area_color=6c5ce7" alt="Activity Graph" style="max-width:100%;"/>
-  </a>
-</div>
 
 ---
 
