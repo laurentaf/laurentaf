@@ -40,17 +40,41 @@
 </p>
 
 <p style="margin:16px 0;">
-  <img src="https://img.shields.io/badge/Python-%E2%89%A53.11-3776AB?style=flat&logo=python&logoColor=fff" alt="Python"/>
+  <a href="https://github.com/search?q=user%3Alaurentaf+python&type=code"><img src="https://img.shields.io/badge/Python-%E2%89%A53.11-3776AB?style=flat&logo=python&logoColor=fff" alt="Python"/></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/SQL-%E2%89%A52%20dials-CC2927?style=flat&logo=oracle&logoColor=fff" alt="SQL"/>
+  <a href="https://github.com/search?q=user%3Alaurentaf+sql&type=code"><img src="https://img.shields.io/badge/SQL-%E2%89%A52%20dials-CC2927?style=flat&logo=oracle&logoColor=fff" alt="SQL"/></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/dbt-Data%20Build%20Tool-FF694B?style=flat&logo=dbt&logoColor=fff" alt="dbt"/>
+  <a href="https://github.com/search?q=user%3Alaurentaf+dbt&type=code"><img src="https://img.shields.io/badge/dbt-Data%20Build%20Tool-FF694B?style=flat&logo=dbt&logoColor=fff" alt="dbt"/></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Azure-Cloud-0078D4?style=flat&logo=microsoftazure&logoColor=fff" alt="Azure"/>
+  <a href="https://github.com/search?q=user%3Alaurentaf+docker&type=code"><img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat&logo=docker&logoColor=fff" alt="Docker"/></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Databricks-Lakehouse-FF3621?style=flat&logo=databricks&logoColor=fff" alt="Databricks"/>
+  <a href="https://github.com/search?q=user%3Alaurentaf+azure&type=code"><img src="https://img.shields.io/badge/Azure-Cloud-0078D4?style=flat&logo=microsoftazure&logoColor=fff" alt="Azure"/></a>
   &nbsp;
-  <img src="https://img.shields.io/badge/Power%20BI-BI-F2C811?style=flat&logo=powerbi&logoColor=000" alt="Power BI"/>
+  <a href="https://github.com/search?q=user%3Alaurentaf+databricks&type=code"><img src="https://img.shields.io/badge/Databricks-Lakehouse-FF3621?style=flat&logo=databricks&logoColor=fff" alt="Databricks"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+powerbi&type=code"><img src="https://img.shields.io/badge/Power%20BI-BI-F2C811?style=flat&logo=powerbi&logoColor=000" alt="Power BI"/></a>
+</p>
+
+<p style="margin:8px 0 16px;">
+  <a href="https://github.com/search?q=user%3Alaurentaf+crewai&type=code"><img src="https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35?style=flat" alt="CrewAI"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+nvidia+nim&type=code"><img src="https://img.shields.io/badge/NVIDIA%20NIM-Inference-76B900?style=flat&logo=nvidia&logoColor=fff" alt="NVIDIA NIM"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+langgraph&type=code"><img src="https://img.shields.io/badge/LangGraph-Agent%20Graph-00b894?style=flat" alt="LangGraph"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+n8n&type=code"><img src="https://img.shields.io/badge/n8n-Workflows-FF6B6B?style=flat&logo=n8n&logoColor=fff" alt="n8n"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+mcp&type=code"><img src="https://img.shields.io/badge/MCP-Protocol-6c5ce7?style=flat" alt="MCP Protocol"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+scikit&type=code"><img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat&logo=scikit-learn&logoColor=fff" alt="scikit-learn"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+airflow&type=code"><img src="https://img.shields.io/badge/Airflow-Pipelines-017CEE?style=flat&logo=apacheairflow&logoColor=fff" alt="Airflow"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+duckdb&type=code"><img src="https://img.shields.io/badge/DuckDB-OLAP-FFF000?style=flat&logo=duckdb&logoColor=000" alt="DuckDB"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+postgresql&type=code"><img src="https://img.shields.io/badge/PostgreSQL-DB-4169E1?style=flat&logo=postgresql&logoColor=fff" alt="PostgreSQL"/></a>
+  &nbsp;
+  <a href="https://github.com/search?q=user%3Alaurentaf+typescript&type=code"><img src="https://img.shields.io/badge/TypeScript-44.7%25-3178C6?style=flat&logo=typescript&logoColor=fff" alt="TypeScript"/></a>
   &nbsp;
   <a href="https://github.com/laurentaf/laos"><img src="https://img.shields.io/badge/%F0%9F%94%A5%20LAOS-Ecosystem-6c5ce7?style=flat" alt="LAOS Ecosystem"/></a>
 </p>
