@@ -32,10 +32,10 @@
 
 ### Engenheiro de IA &middot; Analista de Dados &middot; Engenheiro de Dados
 
-<p style="margin:10px 0;font-size:0.9em;color:#636e72;">
-  <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#128205; Campinas/SP</span>
-  &nbsp;
-  <span style="background:#636e72;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#127757; Remoto</span>
+<p style="margin:10px 0;font-size:0.85em;color:#636e72;">
+  &#127481; Sorocaba&ndash;Campinas, SP, Brasil &#127463;&#127479;
+  &nbsp;|&nbsp; Aberto a remoto &amp; h&iacute;brido
+  &nbsp;|&nbsp; Prefiro: S&atilde;o Paulo ou Remoto
 </p>
 
 <p style="margin:14px 0;">
