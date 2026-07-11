@@ -32,10 +32,10 @@
 
 ### AI Engineer &middot; Data Analyst &middot; Data Engineer
 
-<p style="margin:10px 0;font-size:0.9em;color:#636e72;">
-  <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#128205; Campinas/SP</span>
-  &nbsp;
-  <span style="background:#636e72;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#127757; Remote-first</span>
+<p style="margin:10px 0;font-size:0.85em;color:#636e72;">
+  &#127481; Sorocaba&ndash;Campinas, SP, Brazil &#127463;&#127479;
+  &nbsp;|&nbsp; Open to remote &amp; hybrid
+  &nbsp;|&nbsp; Prefer: S&atilde;o Paulo or Remote
 </p>
 
 <p style="margin:14px 0;">
