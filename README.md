@@ -1,41 +1,18 @@
-<div id="readme-root">
+<!--
+  laurentaf — GitHub Profile README
+  README.md  |  github.com/laurentaf/laurentaf
+  Brand: AI Engineer · Data Architect · System Builder
+  Tone: Professional, personal, impactful.
+  Iteration: 2026-07-11 (v6) — opção C: EN principal + PT no final.
+    Quote destacada com inline styling. Toggle CSS removido
+    (GitHub não renderiza <style>).
+-->
 
-<style>
-  #readme-root .lang-toggle-input { display: none; position: absolute; left: -9999px; }
-  #readme-root .lang-content { display: none; }
-  #readme-root #lang-en:checked ~ .lang-content.lang-en { display: block; }
-  #readme-root #lang-pt:checked ~ .lang-content.lang-pt { display: block; }
-  #readme-root .lang-bar { text-align: center; margin: 16px 0 8px; }
-  #readme-root .lang-btn {
-    display: inline-block; padding: 5px 18px; margin: 0 3px;
-    border-radius: 20px; cursor: pointer; font-size: 0.85em; font-weight: 600;
-    border: 1.5px solid #6c5ce7; color: #6c5ce7; background: transparent;
-    transition: all 0.2s; user-select: none;
-  }
-  #readme-root #lang-en:checked ~ .lang-bar .lang-btn-en,
-  #readme-root #lang-pt:checked ~ .lang-bar .lang-btn-pt {
-    background: #6c5ce7; color: #fff; box-shadow: 0 2px 8px rgba(108,92,231,0.3);
-  }
-  #readme-root .lang-btn:hover { opacity: 0.8; }
-  #readme-root .quote-box {
-    margin: 28px auto; max-width: 600px;
-    border-left: 3px solid #6c5ce7; padding: 12px 20px;
-    background: rgba(108,92,231,0.04); border-radius: 0 8px 8px 0;
-  }
-  #readme-root .quote-box p { margin: 0; font-style: italic; font-size: 1.05em; color: #2d3436; }
-  #readme-root .quote-box cite { display: block; margin-top: 6px; font-size: 0.8em; color: #636e72; font-style: normal; }
-</style>
+<p align="center">
+  <a href="#pt-br">&#127463;&#127479; Vers&atilde;o em Portugu&ecirc;s</a>
+</p>
 
-<input type="radio" name="lang" id="lang-en" class="lang-toggle-input" checked>
-<input type="radio" name="lang" id="lang-pt" class="lang-toggle-input">
-
-<div class="lang-bar">
-  <label for="lang-en" class="lang-btn lang-btn-en">&#127482;&#127480; EN</label>
-  <label for="lang-pt" class="lang-btn lang-btn-pt">&#127463;&#127479; PT</label>
-</div>
-
-<!-- ==================== ENGLISH ==================== -->
-<div class="lang-content lang-en">
+<hr />
 
 <div align="center" style="margin-top:36px;margin-bottom:20px;">
 
@@ -56,7 +33,7 @@
 
 # Hi, I'm Laurent
 
-### AI Engineer · Data Analyst · Data Engineer
+### AI Engineer &middot; Data Analyst &middot; Data Engineer
 
 <p style="margin:10px 0;font-size:0.9em;color:#636e72;">
   <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#128205; Campinas/SP</span>
@@ -78,9 +55,11 @@
 
 </div>
 
-<div class="quote-box">
-  <p>"Technology is the way to materialize your dreams. AI is the shortcut."</p>
-  <cite>&mdash; Laurent Ferreira</cite>
+<div style="margin:28px auto;max-width:600px;border-left:3px solid #6c5ce7;padding:12px 20px;background:#f8f7ff;border-radius:0 8px 8px 0;">
+  <p style="margin:0;font-style:italic;font-size:1.05em;color:#2d3436;">
+    &ldquo;Technology is the way to materialize your dreams. AI is the shortcut.&rdquo;
+  </p>
+  <p style="margin-top:6px;font-size:0.8em;color:#636e72;">&mdash; Laurent Ferreira</p>
 </div>
 
 ---
@@ -93,7 +72,7 @@
 <a href="https://github.com/laurentaf?tab=repositories&q=typescript"><img src="https://img.shields.io/badge/TypeScript-44.7%25-3178C6?style=flat&logo=typescript&logoColor=fff" alt="TypeScript"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=sql"><img src="https://img.shields.io/badge/SQL-%E2%89%A52%20dials-CC2927?style=flat&logo=oracle&logoColor=fff" alt="SQL"/></a>
 
-### Libraries & Frameworks
+### Libraries &amp; Frameworks
 
 <a href="https://github.com/laurentaf?tab=repositories&q=scikit"><img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat&logo=scikit-learn&logoColor=fff" alt="scikit-learn"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=xgboost"><img src="https://img.shields.io/badge/xgboost-Boost-FF6600?style=flat" alt="xgboost"/></a>
@@ -107,7 +86,7 @@
 <a href="https://github.com/laurentaf?tab=repositories&q=crewai"><img src="https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35?style=flat" alt="CrewAI"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=langgraph"><img src="https://img.shields.io/badge/LangGraph-Agent%20Graph-00b894?style=flat" alt="LangGraph"/></a>
 
-### Tools & Platforms
+### Tools &amp; Platforms
 
 <a href="https://github.com/laurentaf?tab=repositories&q=docker"><img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat&logo=docker&logoColor=fff" alt="Docker"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=airflow"><img src="https://img.shields.io/badge/Airflow-Pipelines-017CEE?style=flat&logo=apacheairflow&logoColor=fff" alt="Airflow"/></a>
@@ -246,10 +225,13 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
   Built with <a href="https://github.com/laurentaf/laos" style="color:#6c5ce7;text-decoration:none;">LAOS</a> &mdash; the system that builds systems.
 </div>
 
-</div><!-- /lang-en -->
+<hr />
 
-<!-- ==================== PORTUGUESE ==================== -->
-<div class="lang-content lang-pt">
+<h2 id="pt-br">&#127463;&#127479; Vers&atilde;o em Portugu&ecirc;s</h2>
+
+<p align="center">
+  <a href="#">&#127482;&#127480; English version</a>
+</p>
 
 <div align="center" style="margin-top:36px;margin-bottom:20px;">
 
@@ -292,9 +274,11 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 
 </div>
 
-<div class="quote-box">
-  <p>"Tecnologia &eacute; o caminho para materializar seus sonhos. IA &eacute; o atalho."</p>
-  <cite>&mdash; Laurent Ferreira</cite>
+<div style="margin:28px auto;max-width:600px;border-left:3px solid #6c5ce7;padding:12px 20px;background:#f8f7ff;border-radius:0 8px 8px 0;">
+  <p style="margin:0;font-style:italic;font-size:1.05em;color:#2d3436;">
+    &ldquo;Tecnologia &eacute; o caminho para materializar seus sonhos. IA &eacute; o atalho.&rdquo;
+  </p>
+  <p style="margin-top:6px;font-size:0.8em;color:#636e72;">&mdash; Laurent Ferreira</p>
 </div>
 
 ---
@@ -457,7 +441,3 @@ Sistema operacional meta para IA compos&aacute;vel. 7 m&oacute;dulos &mdash; 5 c
 <div align="center" style="margin:36px 0;opacity:0.35;font-size:0.85em;">
   Constru&iacute;do com <a href="https://github.com/laurentaf/laos" style="color:#6c5ce7;text-decoration:none;">LAOS</a> &mdash; o sistema que constr&oacute;i sistemas.
 </div>
-
-</div><!-- /lang-pt -->
-
-</div><!-- /readme-root -->
