@@ -4,8 +4,7 @@
   Brand: AI Data Engineer · System Architect
   Tone: Professional, concise, scannable.
   Adapted from the LAOS README (20/20) inline-HTML pattern.
-  Iteration: 2026-07-01 (v2) — LACAREEROPS removed, LACOUNCIL reframed as
-  governance layer inside LAOS, stats refreshed from CV, 5 featured projects.
+  Iteration: 2026-07-11 (v3) — LinkedIn + email added to header and Contatos section.
 -->
 
 <div align="center" style="margin-top:48px;margin-bottom:24px;">
@@ -37,6 +36,12 @@
   <span style="background:#6c5ce7;color:#fff;padding:2px 10px;border-radius:4px;font-size:0.85em;">Campinas/SP</span>
   &nbsp;
   <span style="background:#636e72;color:#fff;padding:2px 10px;border-radius:4px;font-size:0.85em;">Remote-first</span>
+</p>
+
+<p style="margin:12px 0;font-size:0.9em;">
+  <a href="https://linkedin.com/in/lauferreira"><img src="https://img.shields.io/badge/LinkedIn-lauferreira-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  &nbsp;
+  <a href="mailto:laurentalp@hotmail.com"><img src="https://img.shields.io/badge/Email-laurentalp@hotmail.com-0078D4?style=flat&logo=microsoft-outlook&logoColor=white" alt="Email"/></a>
 </p>
 
 <p style="margin:16px 0;">
@@ -165,10 +170,14 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 
 ---
 
-## 🌐 Find Me
+## 🌐 Contatos
 
 <a href="https://linkedin.com/in/lauferreira">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <img src="https://img.shields.io/badge/LinkedIn-lauferreira-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:laurentalp@hotmail.com">
+  <img src="https://img.shields.io/badge/Email-laurentalp@hotmail.com-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Email"/>
 </a>
 &nbsp;
 <a href="https://github.com/laurentaf">
