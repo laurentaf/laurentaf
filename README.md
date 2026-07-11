@@ -1,57 +1,44 @@
-<!--
-  laurentaf — GitHub Profile README
-  README.md  |  github.com/laurentaf/laurentaf
-  Brand: AI Engineer · Data Architect · System Builder
-  Tone: Professional, personal, impactful.
-  Iteration: 2026-07-11 (v4) — toggle CSS EN/PT, about me,
-    quote destacada abaixo do header.
--->
-
-<input type="radio" name="lang" id="lang-en" class="lang-toggle-input" checked>
-<input type="radio" name="lang" id="lang-pt" class="lang-toggle-input">
+<div id="readme-root">
 
 <style>
-  .lang-toggle-input { display: none; position: absolute; left: -9999px; }
-  .lang-content { display: none; }
-  #lang-en:checked ~ .lang-content.lang-en { display: block; }
-  #lang-pt:checked ~ .lang-content.lang-pt { display: block; }
-
-  .lang-bar { text-align: center; margin: 16px 0 8px; }
-  .lang-btn {
+  #readme-root .lang-toggle-input { display: none; position: absolute; left: -9999px; }
+  #readme-root .lang-content { display: none; }
+  #readme-root #lang-en:checked ~ .lang-content.lang-en { display: block; }
+  #readme-root #lang-pt:checked ~ .lang-content.lang-pt { display: block; }
+  #readme-root .lang-bar { text-align: center; margin: 16px 0 8px; }
+  #readme-root .lang-btn {
     display: inline-block; padding: 5px 18px; margin: 0 3px;
     border-radius: 20px; cursor: pointer; font-size: 0.85em; font-weight: 600;
     border: 1.5px solid #6c5ce7; color: #6c5ce7; background: transparent;
     transition: all 0.2s; user-select: none;
   }
-  #lang-en:checked ~ .lang-bar .lang-btn-en,
-  #lang-pt:checked ~ .lang-bar .lang-btn-pt {
+  #readme-root #lang-en:checked ~ .lang-bar .lang-btn-en,
+  #readme-root #lang-pt:checked ~ .lang-bar .lang-btn-pt {
     background: #6c5ce7; color: #fff; box-shadow: 0 2px 8px rgba(108,92,231,0.3);
   }
-  .lang-btn:hover { opacity: 0.8; }
-
-  .quote-box {
+  #readme-root .lang-btn:hover { opacity: 0.8; }
+  #readme-root .quote-box {
     margin: 28px auto; max-width: 600px;
     border-left: 3px solid #6c5ce7; padding: 12px 20px;
     background: rgba(108,92,231,0.04); border-radius: 0 8px 8px 0;
   }
-  .quote-box p { margin: 0; font-style: italic; font-size: 1.05em; color: #2d3436; }
-  .quote-box cite { display: block; margin-top: 6px; font-size: 0.8em; color: #636e72; font-style: normal; }
+  #readme-root .quote-box p { margin: 0; font-style: italic; font-size: 1.05em; color: #2d3436; }
+  #readme-root .quote-box cite { display: block; margin-top: 6px; font-size: 0.8em; color: #636e72; font-style: normal; }
 </style>
 
-<!-- ==================== TOGGLE BAR ==================== -->
+<input type="radio" name="lang" id="lang-en" class="lang-toggle-input" checked>
+<input type="radio" name="lang" id="lang-pt" class="lang-toggle-input">
+
 <div class="lang-bar">
-  <label for="lang-en" class="lang-btn lang-btn-en">🇺🇸 EN</label>
-  <label for="lang-pt" class="lang-btn lang-btn-pt">🇧🇷 PT</label>
+  <label for="lang-en" class="lang-btn lang-btn-en">&#127482;&#127480; EN</label>
+  <label for="lang-pt" class="lang-btn lang-btn-pt">&#127463;&#127479; PT</label>
 </div>
 
-<!-- ================================================================ -->
-<!-- ==================== ENGLISH CONTENT =========================== -->
-<!-- ================================================================ -->
+<!-- ==================== ENGLISH ==================== -->
 <div class="lang-content lang-en">
 
 <div align="center" style="margin-top:36px;margin-bottom:20px;">
 
-<!-- Emblem -->
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:2px;">
   <rect x="4" y="4" width="56" height="56" rx="12" stroke="#6c5ce7" stroke-width="1.5" fill="none" opacity="0.3"/>
   <path d="M18 14 L18 48 L38 48" stroke="#6c5ce7" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
@@ -72,9 +59,9 @@
 ### AI Engineer · Data Analyst · Data Engineer
 
 <p style="margin:10px 0;font-size:0.9em;color:#636e72;">
-  <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">📍 Campinas/SP</span>
+  <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#128205; Campinas/SP</span>
   &nbsp;
-  <span style="background:#636e72;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">🌍 Remote-first</span>
+  <span style="background:#636e72;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#127757; Remote-first</span>
 </p>
 
 <p style="margin:14px 0;">
@@ -85,34 +72,20 @@
 
 <p style="margin:2px 0 10px;font-size:0.82em;color:#b2bec3;">
   <code>linkedin.com/in/lauferreira</code>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <code>laurentalp@hotmail.com</code>
 </p>
 
 </div>
 
-<!-- ==================== ABOUT ME ==================== -->
-## 👤 About Me
-
-I build **systems that build systems**.
-
-My work sits at the intersection of **data engineering, AI orchestration, and governance** — from ETL pipelines and dimensional modeling to multi-agent architectures and interpretable ML (econometrics, SHAP, causal inference).
-
-I created **LAOS**, a meta-operating system that composes AI capabilities through deterministic routing, MCP protocols, and a governance engine with mechanical enforcement — because *data architecture isn't about the tools, it's about whether decisions are trustworthy at scale.*
-
-**What drives me:** Turning complex, messy data into architectures that people — and other AIs — can trust and build upon.
-
-**Currently:** Building composable AI systems · Diving deeper into econometrics & causal inference · Open-sourcing everything I can.
-
-<!-- ==================== QUOTE ==================== -->
 <div class="quote-box">
   <p>"Technology is the way to materialize your dreams. AI is the shortcut."</p>
-  <cite>— Laurent Ferreira</cite>
+  <cite>&mdash; Laurent Ferreira</cite>
 </div>
 
 ---
 
-## 🛠️ Stack
+## &#128736; Stack
 
 ### Languages
 
@@ -174,72 +147,72 @@ I created **LAOS**, a meta-operating system that composes AI capabilities throug
 
 ---
 
-## 🚀 Flagship: LAOS
+## &#128640; Flagship: LAOS
 
-I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7 modules** — 5 independent domain MCP capabilities, the **LACOUNCIL governance engine** (14+ approved proposals, 3 voting strategies, DuckDB audit trail), and an orchestrator core with deterministic routing and mechanical enforcement.
+I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7 modules** &mdash; 5 independent domain MCP capabilities, the **LACOUNCIL governance engine** (14+ approved proposals, 3 voting strategies, DuckDB audit trail), and an orchestrator core with deterministic routing and mechanical enforcement.
 
 <div align="center" style="margin:20px 0;">
 
 | Capability | Domain | Status |
 |:----------:|--------|:------:|
-| 🗄️ **LATADE** | Data engineering (SQL, DuckDB, BI, DQ) | ✅ Stable |
-| 🎨 **LADESIGN** | Design (dashboards, decks, wireframes) | ✅ Stable |
-| ⚙️ **LAN8N** | Automation (n8n workflows, integrations) | ✅ Stable |
-| 📊 **LAECON** | Econometrics (regression, GLM, causal, SHAP) | ✅ Stable |
-| 🎮 **LAENGINE** | Game dev (match engine, league simulation) | 🟡 Basic |
+| &#128187; **LATADE** | Data engineering (SQL, DuckDB, BI, DQ) | &#9989; Stable |
+| &#127912; **LADESIGN** | Design (dashboards, decks, wireframes) | &#9989; Stable |
+| &#9881; **LAN8N** | Automation (n8n workflows, integrations) | &#9989; Stable |
+| &#128202; **LAECON** | Econometrics (regression, GLM, causal, SHAP) | &#9989; Stable |
+| &#127918; **LAENGINE** | Game dev (match engine, league simulation) | &#128993; Basic |
 
 </div>
 
 <div align="center" style="margin:8px 0 16px;">
-  <strong>115+ commits</strong> · <strong>11 agent types</strong> · <strong>13 TypeScript plugins</strong> · 17 knowledge files · 17 scripts · 3 dispatch modes
+  <strong>115+ commits</strong> &middot; <strong>11 agent types</strong> &middot; <strong>13 TypeScript plugins</strong> &middot; 17 knowledge files &middot; 17 scripts &middot; 3 dispatch modes
 </div>
 
-**[Explore LAOS →](https://github.com/laurentaf/laos)**
-&nbsp;·&nbsp;
-**[Full Portfolio →](https://github.com/laurentaf?tab=repositories)**
+**[Explore LAOS &rarr;](https://github.com/laurentaf/laos)**
+&nbsp;&middot;&nbsp;
+**[Full Portfolio &rarr;](https://github.com/laurentaf?tab=repositories)**
 
 ---
 
-## 📦 Featured Projects
+## &#128230; Featured Projects
 
 | Project | Description | Highlights |
 |---------|-------------|:----------:|
-| [**LAOS**](https://github.com/laurentaf/laos) | Meta-OS for composable AI · 7 modules · governance engine | 115 commits · 13 plugins · 11 agents |
-| [**abandono-academico**](https://github.com/laurentaf/abandono-academico-casa-grande) | ML dropout prediction · OULAD dataset | 87.5% acc · 93.7% recall · 32,593 students |
-| [**giovanna-rupture-monitor**](https://github.com/laurentaf/giovanna-rupture-monitor) | Retail stock-out analytics · fully Dockerized | 4,150 regions · 33% rupture detection |
-| [**hospital-viana-claims**](https://github.com/laurentaf/hospital-viana-claims) | IFRS17 medical claims ETL pipeline | 10TB+ scale · Medallion Architecture |
+| [**LAOS**](https://github.com/laurentaf/laos) | Meta-OS for composable AI &middot; 7 modules &middot; governance engine | 115 commits &middot; 13 plugins &middot; 11 agents |
+| [**abandono-academico**](https://github.com/laurentaf/abandono-academico-casa-grande) | ML dropout prediction &middot; OULAD dataset | 87.5% acc &middot; 93.7% recall &middot; 32,593 students |
+| [**giovanna-rupture-monitor**](https://github.com/laurentaf/giovanna-rupture-monitor) | Retail stock-out analytics &middot; fully Dockerized | 4,150 regions &middot; 33% rupture detection |
+| [**hospital-viana-claims**](https://github.com/laurentaf/hospital-viana-claims) | IFRS17 medical claims ETL pipeline | 10TB+ scale &middot; Medallion Architecture |
 
 ---
 
-## 📊 Impact
+## &#128202; Impact
 
 <table style="border-collapse:separate;border-spacing:0;">
   <tr>
     <td align="center" style="padding:10px 16px;width:33%;border:1px solid #6c5ce7;border-radius:8px 0 0 8px;border-right:none;">
       <div style="font-weight:700;font-size:1em;color:#6c5ce7;">ML &amp; Prediction</div>
-      <div style="font-size:0.8em;opacity:0.6;"><strong>87.5%</strong> accuracy · <strong>93.7%</strong> recall<br/>32,593 students · dropout pipeline</div>
+      <div style="font-size:0.8em;opacity:0.6;"><strong>87.5%</strong> accuracy &middot; <strong>93.7%</strong> recall<br/>32,593 students &middot; dropout pipeline</div>
     </td>
     <td align="center" style="padding:10px 16px;width:33%;border:1px solid #6c5ce7;border-right:none;">
       <div style="font-weight:700;font-size:1em;color:#6c5ce7;">Pipeline Scale</div>
-      <div style="font-size:0.8em;opacity:0.6;"><strong>10TB+</strong> data · 5 sources<br/>Medallion Architecture · IFRS17</div>
+      <div style="font-size:0.8em;opacity:0.6;"><strong>10TB+</strong> data &middot; 5 sources<br/>Medallion Architecture &middot; IFRS17</div>
     </td>
     <td align="center" style="padding:10px 16px;width:33%;border:1px solid #6c5ce7;border-radius:0 8px 8px 0;">
       <div style="font-weight:700;font-size:1em;color:#6c5ce7;">Governance Engine</div>
-      <div style="font-size:0.8em;opacity:0.6;"><strong>14+</strong> proposals · <strong>13</strong> plugins<br/>11 agents · DuckDB audit trail</div>
+      <div style="font-size:0.8em;opacity:0.6;"><strong>14+</strong> proposals &middot; <strong>13</strong> plugins<br/>11 agents &middot; DuckDB audit trail</div>
     </td>
   </tr>
 </table>
 
 | Area | Result |
 |------|--------|
-| LAOS velocity | 115+ commits · MIT licensed · active development |
-| Retail coverage | 4,150 regions analyzed · single `docker run` deliverable |
-| Exam modeling | 1,236 questions · 27 contests · Bayesian (no LLM hallucination) |
+| LAOS velocity | 115+ commits &middot; MIT licensed &middot; active development |
+| Retail coverage | 4,150 regions analyzed &middot; single <code>docker run</code> deliverable |
+| Exam modeling | 1,236 questions &middot; 27 contests &middot; Bayesian (no LLM hallucination) |
 | Logistics | 50%+ cost reduction via process optimization (10-store chain) |
 
 ---
 
-## 🌐 Find Me
+## &#127760; Find Me
 
 <p>
   <a href="https://linkedin.com/in/lauferreira">
@@ -261,35 +234,25 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 
 <p style="margin:4px 0;font-size:0.85em;color:#b2bec3;">
   <code>linkedin.com/in/lauferreira</code>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <code>laurentalp@hotmail.com</code>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <code>github.com/laurentaf</code>
 </p>
 
 ---
 
 <div align="center" style="margin:36px 0;opacity:0.35;font-size:0.85em;">
-  Built with <a href="https://github.com/laurentaf/laos" style="color:#6c5ce7;text-decoration:none;">LAOS</a> — the system that builds systems.
-  <br/>
-  <svg width="18" height="18" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top:6px;">
-    <rect x="4" y="4" width="56" height="56" rx="12" stroke="#6c5ce7" stroke-width="1.5" fill="none" opacity="0.15"/>
-    <path d="M20 16 L20 48 L38 48" stroke="#6c5ce7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
-    <path d="M40 48 L46 26 L52 48" stroke="#6c5ce7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
-    <line x1="44" y1="38" x2="49" y2="38" stroke="#6c5ce7" stroke-width="1" opacity="0.3"/>
-  </svg>
+  Built with <a href="https://github.com/laurentaf/laos" style="color:#6c5ce7;text-decoration:none;">LAOS</a> &mdash; the system that builds systems.
 </div>
 
 </div><!-- /lang-en -->
 
-<!-- ================================================================ -->
-<!-- ==================== PORTUGUESE CONTENT ======================== -->
-<!-- ================================================================ -->
+<!-- ==================== PORTUGUESE ==================== -->
 <div class="lang-content lang-pt">
 
 <div align="center" style="margin-top:36px;margin-bottom:20px;">
 
-<!-- Emblem -->
 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:2px;">
   <rect x="4" y="4" width="56" height="56" rx="12" stroke="#6c5ce7" stroke-width="1.5" fill="none" opacity="0.3"/>
   <path d="M18 14 L18 48 L38 48" stroke="#6c5ce7" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
@@ -305,14 +268,14 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 
 <br/>
 
-# Olá, sou Laurent
+# Ol&aacute;, sou Laurent
 
-### Engenheiro de IA · Analista de Dados · Engenheiro de Dados
+### Engenheiro de IA &middot; Analista de Dados &middot; Engenheiro de Dados
 
 <p style="margin:10px 0;font-size:0.9em;color:#636e72;">
-  <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">📍 Campinas/SP</span>
+  <span style="background:#6c5ce7;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#128205; Campinas/SP</span>
   &nbsp;
-  <span style="background:#636e72;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">🌍 Remoto</span>
+  <span style="background:#636e72;color:#fff;padding:2px 12px;border-radius:4px;font-size:0.85em;">&#127757; Remoto</span>
 </p>
 
 <p style="margin:14px 0;">
@@ -323,34 +286,20 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 
 <p style="margin:2px 0 10px;font-size:0.82em;color:#b2bec3;">
   <code>linkedin.com/in/lauferreira</code>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <code>laurentalp@hotmail.com</code>
 </p>
 
 </div>
 
-<!-- ==================== SOBRE MIM ==================== -->
-## 👤 Sobre Mim
-
-Eu construo **sistemas que constroem sistemas**.
-
-Meu trabalho fica na interseção entre **engenharia de dados, orquestração de IA e governança** — desde pipelines ETL e modelagem dimensional até arquiteturas multi-agente e ML interpretável (econometria, SHAP, inferência causal).
-
-Criei o **LAOS**, um meta-sistema operacional que compõe capacidades de IA através de roteamento determinístico, protocolos MCP e um motor de governança com aplicação mecânica — porque *arquitetura de dados não é sobre ferramentas, é sobre decisões serem confiáveis em escala.*
-
-**O que me move:** Transformar dados complexos e bagunçados em arquiteturas que pessoas — e outras IAs — possam confiar e construir em cima.
-
-**Atualmente:** Construindo sistemas de IA composáveis · Aprofundando em econometria & inferência causal · Open-sourcing tudo que posso.
-
-<!-- ==================== QUOTE ==================== -->
 <div class="quote-box">
-  <p>"Tecnologia é o caminho para materializar seus sonhos. IA é o atalho."</p>
-  <cite>— Laurent Ferreira</cite>
+  <p>"Tecnologia &eacute; o caminho para materializar seus sonhos. IA &eacute; o atalho."</p>
+  <cite>&mdash; Laurent Ferreira</cite>
 </div>
 
 ---
 
-## 🛠️ Stack
+## &#128736; Stack
 
 ### Linguagens
 
@@ -358,7 +307,7 @@ Criei o **LAOS**, um meta-sistema operacional que compõe capacidades de IA atra
 <a href="https://github.com/laurentaf?tab=repositories&q=typescript"><img src="https://img.shields.io/badge/TypeScript-44.7%25-3178C6?style=flat&logo=typescript&logoColor=fff" alt="TypeScript"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=sql"><img src="https://img.shields.io/badge/SQL-%E2%89%A52%20dials-CC2927?style=flat&logo=oracle&logoColor=fff" alt="SQL"/></a>
 
-### Bibliotecas & Frameworks
+### Bibliotecas &amp; Frameworks
 
 <a href="https://github.com/laurentaf?tab=repositories&q=scikit"><img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=flat&logo=scikit-learn&logoColor=fff" alt="scikit-learn"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=xgboost"><img src="https://img.shields.io/badge/xgboost-Boost-FF6600?style=flat" alt="xgboost"/></a>
@@ -372,7 +321,7 @@ Criei o **LAOS**, um meta-sistema operacional que compõe capacidades de IA atra
 <a href="https://github.com/laurentaf?tab=repositories&q=crewai"><img src="https://img.shields.io/badge/CrewAI-Multi--Agent-FF6B35?style=flat" alt="CrewAI"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=langgraph"><img src="https://img.shields.io/badge/LangGraph-Agent%20Graph-00b894?style=flat" alt="LangGraph"/></a>
 
-### Ferramentas & Plataformas
+### Ferramentas &amp; Plataformas
 
 <a href="https://github.com/laurentaf?tab=repositories&q=docker"><img src="https://img.shields.io/badge/Docker-Containerized-2496ED?style=flat&logo=docker&logoColor=fff" alt="Docker"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=airflow"><img src="https://img.shields.io/badge/Airflow-Pipelines-017CEE?style=flat&logo=apacheairflow&logoColor=fff" alt="Airflow"/></a>
@@ -382,7 +331,7 @@ Criei o **LAOS**, um meta-sistema operacional que compõe capacidades de IA atra
 <a href="https://github.com/laurentaf?tab=repositories&q=n8n"><img src="https://img.shields.io/badge/n8n-Workflows-FF6B6B?style=flat&logo=n8n&logoColor=fff" alt="n8n"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=fabric"><img src="https://img.shields.io/badge/MS%20Fabric-Analytics-0078D4?style=flat&logo=microsoftfabric&logoColor=fff" alt="MS Fabric"/></a>
 
-### Visualização de Dados
+### Visualiza&ccedil;&atilde;o de Dados
 
 <a href="https://github.com/laurentaf?tab=repositories&q=power+bi"><img src="https://img.shields.io/badge/Power%20BI-BI-F2C811?style=flat&logo=powerbi&logoColor=000" alt="Power BI"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=html"><img src="https://img.shields.io/badge/HTML5-Markup-E34F26?style=flat&logo=html5&logoColor=fff" alt="HTML5"/></a>
@@ -402,7 +351,7 @@ Criei o **LAOS**, um meta-sistema operacional que compõe capacidades de IA atra
 <a href="https://github.com/laurentaf?tab=repositories&q=anthropic"><img src="https://img.shields.io/badge/Anthropic-Claude-191919?style=flat&logo=anthropic&logoColor=fff" alt="Anthropic Claude"/></a>
 <a href="https://github.com/laurentaf?tab=repositories&q=nvidia+nim"><img src="https://img.shields.io/badge/NVIDIA%20NIM-Inference-76B900?style=flat&logo=nvidia&logoColor=fff" alt="NVIDIA NIM"/></a>
 
-### Padrões
+### Padr&otilde;es
 
 <a href="https://github.com/laurentaf?tab=repositories&q=mcp"><img src="https://img.shields.io/badge/MCP-Protocol-6c5ce7?style=flat" alt="MCP Protocol"/></a>
 
@@ -412,70 +361,70 @@ Criei o **LAOS**, um meta-sistema operacional que compõe capacidades de IA atra
 
 ---
 
-## 🚀 Flagship: LAOS
+## &#128640; Flagship: LAOS
 
-Sistema operacional meta para IA composável. 7 módulos — 5 capacidades MCP independentes, motor de governança LACOUNCIL (14+ propostas aprovadas, 3 estratégias de voto, DuckDB audit trail), e um orquestrador com roteamento determinístico e aplicação mecânica.
+Sistema operacional meta para IA compos&aacute;vel. 7 m&oacute;dulos &mdash; 5 capacidades MCP independentes, motor de governan&ccedil;a LACOUNCIL (14+ propostas aprovadas, 3 estrat&eacute;gias de voto, DuckDB audit trail), e um orquestrador com roteamento determin&iacute;stico e aplica&ccedil;&atilde;o mec&acirc;nica.
 
 <div align="center" style="margin:20px 0;">
 
-| Capacidade | Domínio | Status |
+| Capacidade | Dom&iacute;nio | Status |
 |:----------:|---------|:------:|
-| 🗄️ **LATADE** | Engenharia de dados (SQL, DuckDB, BI, DQ) | ✅ Stable |
-| 🎨 **LADESIGN** | Design (dashboards, decks, wireframes) | ✅ Stable |
-| ⚙️ **LAN8N** | Automação (n8n workflows, integrações) | ✅ Stable |
-| 📊 **LAECON** | Econometria (regressão, GLM, causal, SHAP) | ✅ Stable |
-| 🎮 **LAENGINE** | Game dev (match engine, simulação de liga) | 🟡 Basic |
+| &#128187; **LATADE** | Engenharia de dados (SQL, DuckDB, BI, DQ) | &#9989; Stable |
+| &#127912; **LADESIGN** | Design (dashboards, decks, wireframes) | &#9989; Stable |
+| &#9881; **LAN8N** | Automa&ccedil;&atilde;o (n8n workflows, integra&ccedil;&otilde;es) | &#9989; Stable |
+| &#128202; **LAECON** | Econometria (regress&atilde;o, GLM, causal, SHAP) | &#9989; Stable |
+| &#127918; **LAENGINE** | Game dev (match engine, simula&ccedil;&atilde;o de liga) | &#128993; Basic |
 
 </div>
 
 <div align="center" style="margin:8px 0 16px;">
-  <strong>115+ commits</strong> · <strong>11 tipos de agente</strong> · <strong>13 plugins TypeScript</strong> · 17 knowledge files · 17 scripts · 3 modos de dispatch
+  <strong>115+ commits</strong> &middot; <strong>11 tipos de agente</strong> &middot; <strong>13 plugins TypeScript</strong> &middot; 17 knowledge files &middot; 17 scripts &middot; 3 modos de dispatch
 </div>
 
-**[Explore o LAOS →](https://github.com/laurentaf/laos)**
+**[Explore o LAOS &rarr;](https://github.com/laurentaf/laos)**
 
 ---
 
-## 📦 Projetos em Destaque
+## &#128230; Projetos em Destaque
 
-| Projeto | Descrição | Destaques |
+| Projeto | Descri&ccedil;&atilde;o | Destaques |
 |---------|-----------|:---------:|
-| [**LAOS**](https://github.com/laurentaf/laos) | Meta-OS para IA composável · 7 módulos | 115 commits · 13 plugins · 11 agentes |
-| [**abandono-academico**](https://github.com/laurentaf/abandono-academico-casa-grande) | ML para evasão escolar · Dataset OULAD | 87.5% acurácia · 93.7% recall · 32.593 alunos |
-| [**giovanna-rupture-monitor**](https://github.com/laurentaf/giovanna-rupture-monitor) | Análise de ruptura em varejo · Dockerizado | 4.150 regiões · 33% detecção |
-| [**hospital-viana-claims**](https://github.com/laurentaf/hospital-viana-claims) | Pipeline ETL IFRS17 de sinistros médicos | 10TB+ escala · Medallion Architecture |
+| [**LAOS**](https://github.com/laurentaf/laos) | Meta-OS para IA compos&aacute;vel &middot; 7 m&oacute;dulos | 115 commits &middot; 13 plugins &middot; 11 agentes |
+| [**abandono-academico**](https://github.com/laurentaf/abandono-academico-casa-grande) | ML para evas&atilde;o escolar &middot; Dataset OULAD | 87.5% acur&aacute;cia &middot; 93.7% recall &middot; 32.593 alunos |
+| [**giovanna-rupture-monitor**](https://github.com/laurentaf/giovanna-rupture-monitor) | An&aacute;lise de ruptura em varejo &middot; Dockerizado | 4.150 regi&otilde;es &middot; 33% detec&ccedil;&atilde;o |
+| [**hospital-viana-claims**](https://github.com/laurentaf/hospital-viana-claims) | Pipeline ETL IFRS17 de sinistros m&eacute;dicos | 10TB+ escala &middot; Medallion Architecture |
 
 ---
 
-## 📊 Impacto
+## &#128202; Impacto
 
 <table style="border-collapse:separate;border-spacing:0;">
   <tr>
     <td align="center" style="padding:10px 16px;width:33%;border:1px solid #6c5ce7;border-radius:8px 0 0 8px;border-right:none;">
-      <div style="font-weight:700;font-size:1em;color:#6c5ce7;">ML &amp; Predição</div>
-      <div style="font-size:0.8em;opacity:0.6;"><strong>87.5%</strong> acurácia · <strong>93.7%</strong> recall<br/>32.593 alunos · pipeline de evasão</div>
+      <div style="font-weight:700;font-size:1em;color:#6c5ce7;">ML &amp; Predi&ccedil;&atilde;o</div>
+      <div style="font-size:0.8em;opacity:0.6;"><strong>87.5%</strong> acur&aacute;cia &middot; <strong>93.7%</strong> recall<br/>32.593 alunos &middot; pipeline de evas&atilde;o</div>
     </td>
     <td align="center" style="padding:10px 16px;width:33%;border:1px solid #6c5ce7;border-right:none;">
       <div style="font-weight:700;font-size:1em;color:#6c5ce7;">Escala de Pipeline</div>
-      <div style="font-size:0.8em;opacity:0.6;"><strong>10TB+</strong> dados · 5 fontes<br/>Medallion Architecture · IFRS17</div>
+      <div style="font-size:0.8em;opacity:0.6;"><strong>10TB+</strong> dados &middot; 5 fontes<br/>Medallion Architecture &middot; IFRS17</div>
     </td>
     <td align="center" style="padding:10px 16px;width:33%;border:1px solid #6c5ce7;border-radius:0 8px 8px 0;">
-      <div style="font-weight:700;font-size:1em;color:#6c5ce7;">Governança</div>
-      <div style="font-size:0.8em;opacity:0.6;"><strong>14+</strong> propostas · <strong>13</strong> plugins<br/>11 agentes · DuckDB audit trail</div>
+      <div style="font-weight:700;font-size:1em;color:#6c5ce7;">Governan&ccedil;a</div>
+      <div style="font-size:0.8em;opacity:0.6;"><strong>14+</strong> propostas &middot; <strong>13</strong> plugins<br/>11 agentes &middot; DuckDB audit trail</div>
     </td>
   </tr>
 </table>
 
-| Área | Resultado |
+| &Aacute;rea | Resultado |
 |------|-----------|
-| Velocidade LAOS | 115+ commits · MIT · desenvolvimento ativo |
-| Cobertura varejo | 4.150 regiões analisadas · `docker run` único |
-| Modelagem concursos | 1.236 questões · 27 concursos · Bayesiano (sem LLM) |
-| Logística | 50%+ redução de custo (10 lojas) |
+| Velocidade LAOS | 115+ commits &middot; MIT &middot; desenvolvimento ativo |
+| Cobertura varejo | 4.150 regi&otilde;es analisadas &middot; <code>docker run</code> &uacute;nico |
+| Modelagem concursos | 1.236 quest&otilde;es &middot; 27 concursos &middot; Bayesiano (sem LLM) |
+| Log&iacute;stica | 50%+ redu&ccedil;&atilde;o de custo (10 lojas) |
 
 ---
 
-## 🌐 Contatos
+## &#127760; Contatos
 
 <p>
   <a href="https://linkedin.com/in/lauferreira">
@@ -497,23 +446,18 @@ Sistema operacional meta para IA composável. 7 módulos — 5 capacidades MCP i
 
 <p style="margin:4px 0;font-size:0.85em;color:#b2bec3;">
   <code>linkedin.com/in/lauferreira</code>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <code>laurentalp@hotmail.com</code>
-  &nbsp;·&nbsp;
+  &nbsp;&middot;&nbsp;
   <code>github.com/laurentaf</code>
 </p>
 
 ---
 
 <div align="center" style="margin:36px 0;opacity:0.35;font-size:0.85em;">
-  Construído com <a href="https://github.com/laurentaf/laos" style="color:#6c5ce7;text-decoration:none;">LAOS</a> — o sistema que constrói sistemas.
-  <br/>
-  <svg width="18" height="18" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top:6px;">
-    <rect x="4" y="4" width="56" height="56" rx="12" stroke="#6c5ce7" stroke-width="1.5" fill="none" opacity="0.15"/>
-    <path d="M20 16 L20 48 L38 48" stroke="#6c5ce7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.4"/>
-    <path d="M40 48 L46 26 L52 48" stroke="#6c5ce7" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.3"/>
-    <line x1="44" y1="38" x2="49" y2="38" stroke="#6c5ce7" stroke-width="1" opacity="0.3"/>
-  </svg>
+  Constru&iacute;do com <a href="https://github.com/laurentaf/laos" style="color:#6c5ce7;text-decoration:none;">LAOS</a> &mdash; o sistema que constr&oacute;i sistemas.
 </div>
 
 </div><!-- /lang-pt -->
+
+</div><!-- /readme-root -->
