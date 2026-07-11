@@ -151,7 +151,6 @@ I built **LAOS**, a meta-operating system for composable AI. It orchestrates **7
 | Project | Description | Highlights |
 |---------|-------------|:----------:|
 | [**LAOS**](https://github.com/laurentaf/laos) | Meta-OS for composable AI · 7 modules · governance engine | 115 commits · 13 plugins · 11 agents |
-| [**previsao-concursos**](https://github.com/laurentaf/previsao-concursos) | Empirical exam prediction FCC/FGV | 1,236 questions · 27 contests · Laplace smoothing |
 | [**abandono-academico**](https://github.com/laurentaf/abandono-academico-casa-grande) | ML dropout prediction · OULAD dataset | 87.5% acc · 93.7% recall · 32,593 students |
 | [**giovanna-rupture-monitor**](https://github.com/laurentaf/giovanna-rupture-monitor) | Retail stock-out analytics · fully Dockerized | 4,150 regions · 33% rupture detection |
 | [**hospital-viana-claims**](https://github.com/laurentaf/hospital-viana-claims) | IFRS17 medical claims ETL pipeline | 10TB+ scale · Medallion Architecture |
@@ -280,7 +279,6 @@ Sistema operacional meta para IA composável. 7 módulos — 5 capacidades MCP i
 | Projeto | Descrição |
 |---------|-----------|
 | [**LAOS**](https://github.com/laurentaf/laos) | Meta-OS para IA composável · 115+ commits |
-| [**previsao-concursos**](https://github.com/laurentaf/previsao-concursos) | Predição empírica FCC/FGV · 1.236 questões |
 | [**abandono-academico**](https://github.com/laurentaf/abandono-academico-casa-grande) | ML para evasão escolar · 87.5% acurácia |
 | [**giovanna-rupture-monitor**](https://github.com/laurentaf/giovanna-rupture-monitor) | Análise de ruptura em varejo · Dockerizado |
 | [**hospital-viana-claims**](https://github.com/laurentaf/hospital-viana-claims) | Pipeline ETL IFRS17 · 10TB+ escala |
