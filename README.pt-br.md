@@ -33,9 +33,8 @@
 ### Engenheiro de IA &middot; Analista de Dados &middot; Engenheiro de Dados
 
 <p style="margin:10px 0;font-size:0.85em;color:#636e72;">
-  &#127481; Sorocaba&ndash;Campinas, SP, Brasil &#127463;&#127479;
-  &nbsp;|&nbsp; Aberto a remoto &amp; h&iacute;brido
-  &nbsp;|&nbsp; Prefiro: S&atilde;o Paulo ou Remoto
+&#127753; Sorocaba&ndash;Campinas, SP, Brasil &#127463;&#127479;
+&nbsp;|&nbsp; Por projeto, remoto ou h&iacute;brido
 </p>
 
 <p style="margin:14px 0;">
